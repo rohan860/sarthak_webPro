@@ -1,0 +1,38 @@
+/* @media print{
+    h1{
+        color: red;
+    }
+}
+
+@media screen {
+    
+
+    h1{
+        color: red;
+    }
+} */
+
+h1{
+    font-size: 30px;
+}
+/* @media <type> <feature> */
+/* when website is 900px or less than 900px then run that */
+/* @media (max-width:900px){
+    h1{
+        color: red;
+        font-size: 60px   ;
+    }
+} */
+/* when the website min-width:900px (900px or greater than 900px) then run that one */
+/* @media (min-width:900px){
+    h1{
+        color: red;
+        font-size: 60px   ;
+    }
+} */
+@media (min-width:900px) and (max-width:1000px){
+    h1{
+        color: red;
+        font-size: 60px   ;
+    }
+}
